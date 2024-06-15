@@ -4,18 +4,18 @@ OpenCore EFI MacOS Monterey on Dell Latitude 7370
 Use at your own risk! I can not be held responsible for any damage done.
 
 - Dell Latitude 13 7370
-- Intel m7-6Y75 Dual-Core
-- Intel HD515
-- 8 GB 1866 MHz LPDDR3 RAM
-- WD NVME 500GB
-- Broadcom BCM943602CS (using M.2 Key A+E adapter) with third antenna
-- Dell 5809e Gobi (Sierra Wireless EM7305) 4G LTE WWAN
-- 1920x1080@60Hz HD Display
-- Realtek ALC256 Audio (rebranded as ALC3246)
-- BIOS version 1.30.3
+- CPU: Intel m7-6Y75 Dual-Core
+- Graphic: Intel HD Graphics 515
+- Buildin screen: 3200 x 1800 (QHD+ - Wide Quad Extended Graphics Array Plus) Display
+- Memory: Onboard (4+4) = 8 GB 1866 MHz LPDDR3 RAM
+- NVMExpress: 500.11 GB KINGSTON SNVS500G
+- MicroSD Card reader: Vendor ID: 0x10ec, Sub-system Vendor ID: 0x1028, Device ID: 0x525a, Sub-system Device ID: 0x071b
+- Camera: UVC Camera Realtek Semiconductor Corp. VendorID_3034 ProductID_22376, Product ID: 0x5768, Device ID: 0x0bda 
+- Audio: Realtek ALC256 Audio (rebranded as ALC3246)
+- BIOS: version 1.30.3
 - OpenCore v1.0.0
 - MacBook9,1 as SMBIOS
-
+- Monterey Version 12.7.5 (21H1222)
 
 Working:
 - EC power management
@@ -31,14 +31,16 @@ Working:
 - unlock with Apple Watch
 - Messages
 - FaceTime
-- SideCar (not tested)
 - headphone jack (using ComboJack https://github.com/hackintosh-stuff/ComboJack)
 - Wifi (2.4 and 5 Ghz)
-- WWAN (not tested)
 - micro HDMI port
 
+Not tested:
+- touchscreen
+- WWAN
+
 Not working:
-- nothing
+
 
 Recommended tools:
 - MountEFI (mount EFI folder under MacOS)
